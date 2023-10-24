@@ -14,8 +14,8 @@ export const NavItem = ({label,href}:NavItemProps) => {
     const isActive = pathname === href;
 
     return(
-        <Link href={href} className={cn("text-gray-400 flex items-center gap-2 font-medium font-mono",
-        isActive && 'text-gray-50')}>
+        <Link href={href} className={cn('text-gray-400 flex items-center gap-2 font-medium font-mono',
+        isActive && 'text-gray-50',)}>
             {label}
         </Link>
     )

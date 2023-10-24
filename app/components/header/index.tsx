@@ -17,7 +17,7 @@ const NAV_ITEMS = [{
 
 export const Header = () => {
     return(
-        <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center">
+        <header className="absolute top-0 z-10 h-24 w-full flex items-center justify-center">
             <div className="container flex items-center justify-between">
                 <Link href="/">
                     <Image
@@ -28,7 +28,7 @@ export const Header = () => {
                     />
 
                 </Link>
-                <nav className="flex items-center sm:gap-10">
+                <nav className="flex items-center gap-4 sm:gap-10">
                     {NAV_ITEMS.map(item => (
                         <NavItem {...item} key={item.label} />
                     ))}
