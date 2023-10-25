@@ -25,11 +25,11 @@ export const HeroSection = () => {
         <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[90px]">
             <div className="container flex items-start justify-between flex-col-reverse lg:flex-row pt-2">
                 <div className="w-full ">
-                    <p className="font-mono text-cyan-400 mt-3 mx-3">Olá, meu nome é</p>
+                    <p className="font-mono text-sky-400 mt-3 mx-3">Olá, meu nome é</p>
                     <h2 className="text-4xl font-medium mt-3 mx-2">Gabriela Bianchini</h2>
 
                     <div>
-                        <div className="text-gray-400 my-6 text-sm sm:text-base mx-3">
+                        <div className="text-gray-200 my-6 text-sm sm:text-base mx-3">
                             <p>Desenvolvedora Frontend com experiência em empresas do setor de Tecnologia, trago uma formação em Análise e Desenvolvimento de Sistemas e projetos que conduzi de forma independente e autodidata.
                             Minha experiência prática me permitiu desenvolver um sólido conhecimento em programação e uma compreensão abrangente das ferramentas tecnológicas relevantes.</p>
                             <p>Minha abordagem profissional é marcada por uma mentalidade colaborativa e proativa. Tenho paixão pela aprendizagem contínua e estou sempre em busca de novos desafios para aprimorar minhas habilidades. Acredito que o mundo da tecnologia está em constante evolução, e estou disposta a aprender e adaptar-me a novas tecnologias à medida que elas surgem.

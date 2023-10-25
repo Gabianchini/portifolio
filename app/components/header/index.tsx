@@ -21,6 +21,7 @@ export const Header = () => {
             <div className="container flex items-center justify-between">
                 <Link href="/">
                     <Image
+                    className="hover:scale-125"
                     width={58}
                     height={49}
                     src="/images/icon3.png"
