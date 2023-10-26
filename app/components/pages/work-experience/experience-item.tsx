@@ -12,7 +12,7 @@ type ExperienceItemProps = {
 
 export const ExperienceItem = ({image,companyName,role,date, jobDescription,children}: ExperienceItemProps) => {
     return(
-        <div className="grid grid-cols-[40px,1fr] gap-4 md:gap-10"> 
+        <div className="grid grid-cols-[35px,1fr] gap-4 md:gap-6"> 
            <div className="flex flex-col items-center gap-4">
            <div className="rounded-full border border-gray-500 p-0.5">
           <Image
@@ -30,7 +30,7 @@ export const ExperienceItem = ({image,companyName,role,date, jobDescription,chil
         <div>
 
 
-            <div className="flex flex-col gap-2 text-sm sm:text-base"> 
+            <div className="flex flex-col gap-1 text-sm sm:text-base"> 
                 <a target="_blank" href="https://www.linkedin.com/company/valtech/" className="text-gray-500 hover:text-sky-500 transition-colors">
                     {companyName}
                 </a>
