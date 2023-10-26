@@ -1,16 +1,22 @@
+'use client'
 import Image from "next/image"
 import {BiChevronRight,BiChevronLeft} from "react-icons/bi"
 import { TechBadge } from "@/app/components/tech-badge"
+import { Link } from "@/app/components/link"
+import { HorizontalDivider } from "@/app/components/divider/horizontal"
 
 type ProjectCardProps = {
     src:string
     name:string
     description:string
-    tech:[string]
+    children:React.ReactNode
+    link:string
+    
+  
     
 }
 
-export const ProjectCard = ({src,name,description,tech}:ProjectCardProps) => {
+export const ProjectCard = ({src,name,description,children,link}:ProjectCardProps) => {
     return(
         <div className="flex gap-4 lg:gap-12 flex-col lg:flex-row ">
             <div className="w-full h-full">
@@ -22,7 +28,10 @@ export const ProjectCard = ({src,name,description,tech}:ProjectCardProps) => {
                    <BiChevronLeft size={25}/>{name}<BiChevronRight size={25}/>
                 </h3>
                 <p className="text-sky-400 my-6">{description}</p>
-                <TechBadge name={tech}/>
+                {children}
+                <Link href={link} className="my-6">
+                   <BiChevronLeft/> Ver projeto <BiChevronRight/>
+                </Link>
             </div>
         </div>
     )
