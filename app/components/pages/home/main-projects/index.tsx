@@ -8,6 +8,7 @@ import { TechBadge } from "@/app/components/tech-badge"
 
 export const MainProjects = () => {
     return(
+        <>
         <section className="container py-16">
             <SectionTitle title="Projetos em destaque"/>
             <HorizontalDivider className="mb-16"/>
@@ -26,5 +27,6 @@ export const MainProjects = () => {
             </p>
 
         </section>
+        </>
     )
 }

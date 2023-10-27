@@ -11,7 +11,7 @@ export const TechBadge = ({ name, ...props }: TechBadgeProps) => {
   return (
    
       <motion.span
-      className="text-sky-100 bg-sky-500 text-sm py-1 px-3 rounded-lg m-1"
+      className="text-sky-100 bg-sky-600 text-sm py-1 px-3 rounded-lg m-1"
       {...props}
     >
       {name}

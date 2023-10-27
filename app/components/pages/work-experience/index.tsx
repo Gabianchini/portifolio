@@ -1,12 +1,15 @@
 import { SectionTitle } from "../../section-title";
 import { TechBadge } from "../../tech-badge";
 import { ExperienceItem } from "./experience-item";
+import { HorizontalDivider } from "../../divider/horizontal";
+
 
 export const WorkExperience = () => {
   return (
     <section className="container py-16 flex gap-10 m6d:gap-4 lg:gap-16 flex-col md:flex-row">
       <div className="max-w-[420px]">
         <SectionTitle title="Experiência Profissional" />
+        <HorizontalDivider/>
         <p>
           Com um histórico de sucesso e paixão pela inovação, estou comprometida
           em encontrar soluções personalizadas para a sua empresa. Pronto para

@@ -26,7 +26,7 @@ export const ProjectCard = ({src,name,description,children,link}:ProjectCardProp
                 <h3 className="flex items-center gap-3 font-medium text-lg">
                    <BiChevronLeft size={25}/>{name}<BiChevronRight size={25}/>
                 </h3>
-                <p className="text-sky-400 my-6">{description}</p>
+                <p className="text-gray-300 my-6">{description}</p>
                 {children}
                 <Link href={link} className="my-6">
                    <BiChevronLeft/> Ver projeto <BiChevronRight/>

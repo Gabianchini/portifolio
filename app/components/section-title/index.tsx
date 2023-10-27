@@ -9,7 +9,7 @@ export const SectionTitle = ({title, className}:SectionTitleProps) => {
     return(
         <div className={cn('flex flex-col gap-4', className)}> 
     
-        <h3 className="text-2xl font-medium">{title}</h3>
+        <h3 className="text-2xl font-medium font-semibold">{title}</h3>
 
         </div>
     )

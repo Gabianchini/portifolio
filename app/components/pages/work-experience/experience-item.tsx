@@ -31,14 +31,14 @@ export const ExperienceItem = ({image,companyName,role,date, jobDescription,chil
 
 
             <div className="flex flex-col gap-1 text-sm sm:text-base"> 
-                <a target="_blank" href="https://www.linkedin.com/company/valtech/" className="text-gray-500 hover:text-sky-500 transition-colors">
+                <a target="_blank" href="https://www.linkedin.com/company/valtech/" className="text-gray-300 hover:text-sky-500 transition-colors font-semibold">
                     {companyName}
                 </a>
                 <h4>{role}</h4>
-                <span className="text-gray-500">
+                <span className="text-gray-400">
                     {date} 
                 </span>
-                <p className="text-gray-400">
+                <p className="text-gray-300">
                 	{jobDescription}
                 </p>
             </div>
