@@ -6,6 +6,9 @@ import {RiReactjsLine} from "react-icons/ri"
 import  {BsFiletypeSql} from "react-icons/bs"
 import {SiStyledcomponents} from "react-icons/si"
 import { HorizontalDivider } from "../divider/horizontal"
+import {motion} from "framer-motion"
+import { TechBadge } from "../tech-badge"
+import React from "react"
 
 
 export const Skills =() => {
@@ -13,7 +16,11 @@ export const Skills =() => {
         <section className="container py-16">
             <SectionTitle title="Conhecimentos"/> 
             <HorizontalDivider/>
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(210px,1fr))] gap-3 mt-[60px]">
+            <motion.div className="grid grid-cols-[repeat(auto-fit,minmax(210px,1fr))] gap-3 mt-[60px]"
+             initial={{ opacity: 0, x: -100 }}
+             whileInView={{ opacity: 1, x: 0 }}
+             exit={{ opacity: 0, x: -100 }}
+             transition={{ duration: 0.15, delay:0.5}}>
                 <Skill tech={{icon:<RiReactjsLine size={30}/>,
                 name:'React.Js'}}/>
                 <Skill tech={{icon:<TbBrandNextjs size={30}/>,
@@ -40,7 +47,7 @@ export const Skills =() => {
                 name:'Figma'}}/>
 
 
-            </div>   
+            </motion.div>   
          </section>
     )
 }

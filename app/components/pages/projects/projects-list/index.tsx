@@ -1,6 +1,8 @@
+'use client'
+
 import Link from "next/link"
 import { ProjectCard } from "./project-card"
-Link
+
 
 export const ProjectsList = () => {
     return(
