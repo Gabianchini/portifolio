@@ -24,14 +24,14 @@ export const WorkExperience = () => {
           role="Desenvolvedora Frontend"
           date="abril 2022 - maio 2023"
           jobDescription="Desenvolvimento de componentes, replicando layout do figma e criação de suas funcionalidades.Reformulação e refinamento de código visando boas práticas.Atuação como Content Editor para marcas como Sanofi e SC Johnson.Ampla experiência em conduzir reuniões em inglês."
-          children= {<><TechBadge name={["React.js"]}/> <TechBadge name={["React.js"]}/></>}/>    
+          children= {<><TechBadge name={"React.js"}/> <TechBadge name={"React.js"}/></>}/>    
           <ExperienceItem
           image="/images/valtech_logo.jpeg"
           companyName="Valtech"
           role="Desenvolvedora Frontend"
           date="abril 2022 - maio 2023"
           jobDescription="Desenvolvimento de componentes, replicando layout do figma e criação de suas funcionalidades.Reformulação e refinamento de código visando boas práticas.Atuação como Content Editor para marcas como Sanofi e SC Johnson.Ampla experiência em conduzir reuniões em inglês."
-          children= {<><TechBadge name={["React.js"]}/> <TechBadge name={["React.js"]}/></>}/> 
+          children= {<><TechBadge name={"React.js"}/> <TechBadge name={"React.js"}/></>}/> 
       </div>
     </section>
   );

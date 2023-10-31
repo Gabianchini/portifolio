@@ -5,6 +5,7 @@ import { WorkExperience } from "./components/pages/work-experience";
 import { Skills } from "./components/skills";
 import { Footer } from "./components/footer";
 import { PageIntroduction } from "./components/pages/projects/page-introduction";
+import { BackToTop } from "./components/back-to-top";
 
 export default async function Home() {
   return (

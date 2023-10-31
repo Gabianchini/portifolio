@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { ComponentProps } from 'react'
 
 type TechBadgeProps = ComponentProps<typeof motion.span> & {
-  name: [string]
+  name: string
 }
 
 export const TechBadge = ({ name, ...props }: TechBadgeProps) => {
