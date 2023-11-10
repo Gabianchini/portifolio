@@ -24,14 +24,17 @@ export const WorkExperience = () => {
           jobDescription="Development of components, replicating Figma layouts, and the creation of their functionalities. 
           Code restructuring and refinement focusing on best practices.
            Serving as a Content Editor for brands such as Sanofi and SC Johnson. Extensive experience in conducting meetings in English."
-          children= {<><TechBadge name={"React.js"}/> <TechBadge name={"Next.js"}/> <TechBadge name={"Contentful"}/> <TechBadge name={"Adobe AEM"}/> <TechBadge name={"Git"}/> <TechBadge name={"Sitecore"}/> <TechBadge name={"Java Script"}/> <TechBadge name={"Type Script"}/> <TechBadge name={"Sass"}/> <TechBadge name={"CSS"}/> <TechBadge name={"TailwindCss"}/>  <TechBadge name={"Styled Components"}/> <TechBadge name={"Atomic Design"}/> <TechBadge name={"Block Element Modifier"}/> <TechBadge name={"Kanban"}/> <TechBadge name={"Scrum"}/></>}/>    
+        >
+          <TechBadge name={"React.js"}/> <TechBadge name={"Next.js"}/> <TechBadge name={"Contentful"}/> <TechBadge name={"Adobe AEM"}/> <TechBadge name={"Git"}/> <TechBadge name={"Sitecore"}/> <TechBadge name={"Java Script"}/> <TechBadge name={"Type Script"}/> <TechBadge name={"Sass"}/> <TechBadge name={"CSS"}/> <TechBadge name={"TailwindCss"}/>  <TechBadge name={"Styled Components"}/> <TechBadge name={"Atomic Design"}/> <TechBadge name={"Block Element Modifier"}/> <TechBadge name={"Kanban"}/> <TechBadge name={"Scrum"}/>
+          </ExperienceItem>    
           <ExperienceItem
           image="/images/tcs-logo.webp"
           companyName="Tata Consultancy Services"
           role="Fullstack Developer"
           date="april 2021 - march 2023"
-          jobDescription="Supporting the team in performing various tasks as per demand, ensuring agility and efficiency. Participation in trainings to update knowledge and professional development."
-          children= {<><TechBadge name={"Java"}/> <TechBadge name={"SQL"}/> <TechBadge name={"Java Script"}/> <TechBadge name={"Html"}/> <TechBadge name={"Css"}/></>}/> 
+          jobDescription="Supporting the team in performing various tasks as per demand, ensuring agility and efficiency. Participation in trainings to update knowledge and professional development.">
+          <TechBadge name={"Java"}/> <TechBadge name={"SQL"}/> <TechBadge name={"Java Script"}/> <TechBadge name={"Html"}/> <TechBadge name={"Css"}/>
+          </ExperienceItem>
       </div>
     </section>
   );
