@@ -38,18 +38,18 @@ export const ContactForm = () => {
             <div className="w-full max-w-[420px] mx-auto">
                 <SectionTitle 
                 className="items-center text-center"
-                title="Vamos trabalhar juntos? Entre em contato!"/>
+                title=" Let's work together? Get in touch!"/>
 
                 <form className="mt-12 w-full flex flex-col gap-4" autoComplete="on" onSubmit={handleSubmit(onSubmit)}>
-                    <input type="text" placeholder="Nome" className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-4 outline-sky-300 " {...register('name')}/>
+                    <input type="text" placeholder="Name" className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-4 outline-sky-300 " {...register('name')}/>
                     <input type="email" placeholder="E-mail" className="w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-4 outline-sky-300  " {...register('email')}/>
                     <textarea 
-                     placeholder="Mensagem" 
+                     placeholder="Message" 
                      className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-4 outline-sky-300"
                      maxLength={500}
                      {...register('message')}/>
-                     <Button className="w-max mx-auto mt-6 shadow-button">
-                        Enviar Mensagem
+                     <Button className="w-max mx-auto mt-6">
+                        Send Message
                         <HiArrowNarrowRight size={18}/>
                      </Button>
                 </form>

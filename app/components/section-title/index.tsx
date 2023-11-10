@@ -17,7 +17,7 @@ export const SectionTitle = ({title, className}:SectionTitleProps) => {
     return(
         <div className={cn('flex flex-col gap-4', className)}> 
     
-        <motion.h3   {...animProps} className="text-2xl font-medium font-semibold">{title} </motion.h3>
+        <motion.h3   {...animProps} className="text-2xl font-medium ">{title} </motion.h3>
 
         </div>
     )

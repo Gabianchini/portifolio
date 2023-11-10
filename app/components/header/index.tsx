@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { NavItem } from "../nav-item";
-import { motion } from "framer-motion";
+
 
 const NAV_ITEMS = [
   {
@@ -11,35 +11,30 @@ const NAV_ITEMS = [
     href: "/",
   },
   {
-    label: "Projetos",
+    label: "Projects",
     href: "/projects",
   },
 ];
 
 export const Header = () => {
   return (
-    <motion.header
-      className="absolute top-0 z-10  h-24 w-full py-10 flex items-center justify-center"
-      initial={{ top: -100 }}
-      animate={{ top: 0 }}
-      transition={{ duration: 0.2 }}
-    >
+    <header
+      className="absolute top-0 z-10  h-24 w-full py-10 flex items-center justify-center">
       <div className="container flex items-center justify-between">
-        <Link href="/">
+        <Link href="/" aria-label="Home">
           <Image
-            className="hover:scale-125"
             width={50}
             height={40}
-            src="/images/icon3.png"
+            src="/images/icon3.webp"
             alt="Home"
           />
         </Link>
-        <nav className="flex items-center gap-4 sm:gap-10">
+        <nav className="flex items-center gap-4 sm:gap-10 my-20">
           {NAV_ITEMS.map((item) => (
             <NavItem {...item} key={item.label} />
           ))}
         </nav>
       </div>
-    </motion.header>
+    </header>
   );
 };

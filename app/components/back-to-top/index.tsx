@@ -1,6 +1,6 @@
 'use client'
 
-import { TbArrowNarrowUp } from 'react-icons/tb'
+import {TbArrowNarrowUp}  from "react-icons/tb"
 import { Button } from '../button'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useCallback, useEffect, useState } from 'react'
@@ -33,8 +33,9 @@ export const BackToTop = () => {
           <Button
             onClick={scrollToTop}
             className="shadow-lg shadow-emerald-400/20"
+            aria-describedby='Go back to the top of the page'
           >
-            <TbArrowNarrowUp size={20} />
+            <TbArrowNarrowUp size={20} aria-label='Arrow'/>
           </Button>
         </motion.div>
       )}
