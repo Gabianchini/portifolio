@@ -58,7 +58,7 @@ export const HeroSection = () => {
             <section
               className="text-gray-200 my-6 text-sm sm:text-base mx-3">
               <p>
-                Frontend Developer with experience in the Technology sector, I
+                Developer with experience in the Technology sector, I
                 bring a background in Analysis and System Development along with
                 independently and self-taught led projects.
               </p>
