@@ -40,7 +40,7 @@ export const ProjectDetails = ({projectName,techs,link,button,projectSession,des
         </div>
         <LinkComp href="/projects">
             <HiArrowNarrowLeft size={20}/>
-            Voltar para projetos
+            Back to Projects
         </LinkComp>
 
         </section>
