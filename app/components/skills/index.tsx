@@ -1,5 +1,6 @@
 'use client'
 import { TbBrandCss3, TbBrandHtml5, TbBrandJavascript, TbBrandNextjs, TbBrandSass, TbBrandTypescript, TbBrandTailwind, TbBrandGit, TbBrandFigma } from "react-icons/tb"
+import { FaNodeJs } from "react-icons/fa";
 import { SectionTitle } from "../section-title"
 import { Skill } from "./skill"
 import {RiReactjsLine} from "react-icons/ri"
@@ -23,6 +24,8 @@ export const Skills =() => {
                 name:'Java Script'}}/>
                 <Skill tech={{icon:<TbBrandTypescript size={30}/>,
                 name:'Type Script'}}/>
+                <Skill tech={{icon:<FaNodeJs size={30}/>,
+                name:'Node'}}/>
                 <Skill tech={{icon:<TbBrandHtml5 size={30}/>,
                 name:'HTML'}}/>
                 <Skill tech={{icon:<TbBrandCss3 size={30}/>,

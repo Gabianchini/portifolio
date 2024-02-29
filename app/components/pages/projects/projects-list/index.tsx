@@ -26,12 +26,19 @@ export const ProjectsList = () => {
          </Link>
          <Link href="/projects/tictactoe" aria-label="Tictactoe" role="button">
         <ProjectCard
-        
          img="/images/tictactoe.webp"
          name="Tic-tac-Toe"
          description="The Tic-Tac-Toe project is an interactive implementation of the classic two-player strategy game. Players will compete to fill a 3x3 board with their symbols (X or O) and try to win by forming a row, column, or diagonal with their symbols."
          techs="Tools: Java script, Html, Css, Api"/>
          </Link>
+         <Link href="/projects/Trend" aria-label="Trend" role="button">
+        <ProjectCard
+         img="/images/trend2.webp"
+         name="Trend"
+         description="A Ecommerce project, integrating PostgreSQL via Prisma ORM, and Stripe for secure transactions. Features user authentication, product management, and more."
+         techs="Tools: Next.js, Type Script, TailwindCss, PostgreSQL, Prisma, NextAuth, Cloudinary, Stripe"/>
+         </Link>
+         
         </section>
     )
 }

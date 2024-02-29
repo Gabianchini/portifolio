@@ -9,7 +9,6 @@ import {
   TbBrandLinkedin,
   TbBrandWhatsapp,
 } from "react-icons/tb";
-import { motion } from "framer-motion";
 import { SectionTitle } from "@/app/components/section-title";
 
 const MOCK_CONTACTS = [
