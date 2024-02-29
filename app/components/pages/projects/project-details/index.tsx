@@ -1,7 +1,7 @@
 import { SectionTitle } from "@/app/components/section-title"
 import React from "react"
-import { LinkComp } from "@/app/components/link"
 import { HiArrowNarrowLeft } from "react-icons/hi"
+import Link from "next/link"
 
 
 type ProjectDetailsProps = {
@@ -38,10 +38,12 @@ export const ProjectDetails = ({projectName,techs,link,button,projectSession,des
         <div>
             {projectSession}
         </div>
-        <LinkComp href="/projects">
-            <HiArrowNarrowLeft size={20}/>
+        <div className="flex">
+        <Link href="/projects" aria-label="Projects" role="button">
+        <HiArrowNarrowLeft size={20} className="float-left"/>
             Back to Projects
-        </LinkComp>
+        </Link>
+        </div>
 
         </section>
        
