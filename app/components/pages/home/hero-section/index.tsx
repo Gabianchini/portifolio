@@ -35,6 +35,7 @@ export const HeroSection = () => {
     "JavaScript",
     "TypeScript",
     "Next.Js",
+    "Node.js",
     "SQL",
     "MySQL",
     "TailwindCss",
