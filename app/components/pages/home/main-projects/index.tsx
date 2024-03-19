@@ -15,7 +15,7 @@ export const MainProjects = () => {
             <div>
             
             <ProjectCard
-              name="Oceandex" src="/images/Oceandex.webp" description="I'm very happy with the evolution of this project that started as a way to study technologies and turned into a beautiful website. Developed with an amazing team from Valtech, I can only express my gratitude for everyone's collaboration in making this possible.
+              name="Oceandex" src="/images/oceandex-pic.png" description="I'm very happy with the evolution of this project that started as a way to study technologies and turned into a beautiful website. Developed with an amazing team from Valtech, I can only express my gratitude for everyone's collaboration in making this possible.
             OceanDex aims to provide information about marine animals and interesting facts about the oceans. The inspiration for the name came from the concept"  
             link={`/projects/oceandex`} 
             >
