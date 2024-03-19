@@ -16,6 +16,17 @@ export const WorkExperience = () => {
         </p>
       </div>
       <div className="flex flex-col gap-4">
+
+      <ExperienceItem
+          image="/images/confidence.png"
+          companyName="Confidence Devs"
+          role="Freelance developer"
+          date="august 2023 - Now"
+          jobDescription="Components development and features like schedule meeting button and site translation to portuguese."
+        >
+          <TechBadge name={"React.js"}/> <TechBadge name={"Next.js"}/> <TechBadge name={"Styled components"}/> <TechBadge name={"Gitlab"}/> <TechBadge name={"i18next"}/> <TechBadge name={"Craco"}/> <TechBadge name={"Type Script"}/> <TechBadge name={"Kanbam"}/> 
+          </ExperienceItem>    
+
         <ExperienceItem
           image="/images/valtech_logo.webp"
           companyName="Valtech"

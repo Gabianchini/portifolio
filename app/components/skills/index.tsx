@@ -5,7 +5,7 @@ import { SectionTitle } from "../section-title"
 import { Skill } from "./skill"
 import {RiReactjsLine} from "react-icons/ri"
 import  {BsFiletypeSql} from "react-icons/bs"
-import {SiStyledcomponents} from "react-icons/si"
+import {SiStyledcomponents, SiExpress, SiMongodb, SiPrisma} from "react-icons/si"
 import { HorizontalDivider } from "../divider/horizontal"
 import React from "react"
 
@@ -24,8 +24,14 @@ export const Skills =() => {
                 name:'Java Script'}}/>
                 <Skill tech={{icon:<TbBrandTypescript size={30}/>,
                 name:'Type Script'}}/>
+                <Skill tech={{icon:<SiPrisma size={30}/>,
+                name:'Prisma'}}/>
                 <Skill tech={{icon:<FaNodeJs size={30}/>,
-                name:'Node'}}/>
+                name:'Node.js'}}/>
+                <Skill tech={{icon:<SiMongodb size={30}/>,
+                name:'MongoDB'}}/>
+                <Skill tech={{icon:< SiExpress size={30}/>,
+                name:'Express'}}/>
                 <Skill tech={{icon:<TbBrandHtml5 size={30}/>,
                 name:'HTML'}}/>
                 <Skill tech={{icon:<TbBrandCss3 size={30}/>,
