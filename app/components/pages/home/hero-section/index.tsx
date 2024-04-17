@@ -18,7 +18,7 @@ const MOCK_CONTACTS = [
     social: "Github",
   },
   {
-    url: "https://www.linkedin.com/in/gabriela-bianchini-044450187/",
+    url: "https://www.linkedin.com/in/gabriela-bianchini-de-oliveira-044450187/",
     icon: <TbBrandLinkedin size={35}  />,
     social: "Linkedin",
   },
