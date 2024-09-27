@@ -2,7 +2,7 @@
 
 import { ProjectDetails } from "@/app/components/pages/projects/project-details";
 import { TechBadge } from "@/app/components/tech-badge";
-import {FaLink, FaGithub} from "react-icons/fa"
+import {FaGithub} from "react-icons/fa"
 import { Button } from "@/app/components/button";
 
 
